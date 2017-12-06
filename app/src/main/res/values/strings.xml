@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Project</string>
+
+    <string-array name="majors">
+        <item></item>
+        <item>B.S. Computer Science</item>
+    </string-array>
+
+    <string-array name="concentration">
+        <item></item>
+        <item>Computer Software Systems</item>
+        <item>Hardware Systems</item>
+        <item>Theoretical Computer Science</item>
+
+    </string-array>
+</resources>

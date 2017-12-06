@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sung_jinjang.project.Main4Activity">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="92dp"
+        android:text="Class Info:"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:text="Back" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_marginTop="36dp"
+        android:text="Registered Classes"
+        android:textColor="@android:color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/csc4340"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignStart="@+id/csc4620"
+        android:layout_below="@+id/csc4620"
+        android:text="CSC 4340 : Introduction to Compilers : MW 1:00-2:15"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/csc4510"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignStart="@+id/csc4610"
+        android:layout_below="@+id/csc4610"
+        android:text="CSC 4510 : Automata : TR 1:00-2:15"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <TextView
+        android:id="@+id/csc4610"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignStart="@+id/csc4340"
+        android:layout_below="@+id/csc4340"
+        android:text="CSC 4610 : Numerical Analysis I : MW 3:00-4:15"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="170dp" />
+
+    <TextView
+        android:id="@+id/csc4620"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_below="@+id/textView8"
+        android:text="CSC 4620 : Numerical Analysis II : TR 1:30-2:45"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <TextView
+        android:id="@+id/csc4370"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/csc4510"
+        android:layout_below="@+id/textView25"
+        android:text="CSC 4370 : Web Programming : F 12:00-1:15"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/csc4370"
+        android:layout_centerVertical="true"
+        android:text="Wait List:"
+        android:textColor="@android:color/black" />
+
+</RelativeLayout>
